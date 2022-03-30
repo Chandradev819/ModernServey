@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="ModernServey.styles.css" rel="stylesheet" />
-	<link href="css/syncfusion-blazor-icons.css" rel="stylesheet" />
-	
+    <link href="css/syncfusion-blazor-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/app3.css">
+
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
-<link rel="stylesheet" href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" />
+    <link rel="stylesheet" href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" />
 </head>
 <body>
     @RenderBody()
@@ -31,7 +33,7 @@
     </div>
 
     <script src="_framework/blazor.server.js"></script>
-	 <script>
+    <script>
         function isSidebar(x, y) {
             var sidebarEle = document.elementFromPoint(x, y);
             return (sidebarEle && sidebarEle.closest('.sidebar') != null) ? true : false;
