@@ -11,5 +11,9 @@
     <PackageReference Include="Syncfusion.Blazor.Navigations" Version="19.4.0.56" />
   </ItemGroup>
   
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+  
 
 </Project>
